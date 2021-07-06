@@ -1,0 +1,43 @@
+.bd-navbar {
+  padding: .75rem 0;
+  background: #FFFFFF;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-size: 10px;
+  line-height: 13px;
+
+  .logo {
+    width: 118px;
+    height: 37px;
+  }
+}
+
+.navbar-light .navbar-toggler {
+  padding: 11px 9px;
+}
+
+.text-decoration-underline {
+  text-decoration: underline;
+}
+
+.empezar {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.727273px;
+
+  &_gradient {
+    background: linear-gradient(179.04deg, #CC2229 -29.81%, #9F041B 129.89%);
+    text-transform: none;
+    letter-spacing: 0.519481px;
+    padding: 9px 16px 7px;
+    margin-left: auto;
+    margin-right: .5rem;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .bd-navbar .logo {
+    width: 147px;
+    height: 46px;
+  }
+}
